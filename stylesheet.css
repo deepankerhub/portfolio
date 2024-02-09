@@ -561,7 +561,7 @@ section {
 .main-text h2 span{
     color: #0ef;
 }
-.porfolio-content{
+.portfolio-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(359px, auto));
 }
