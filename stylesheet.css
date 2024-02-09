@@ -152,62 +152,74 @@ body {
         0 0 25px cyan, 0 0 50px cyan,
         0 0 100px cyan, 0 0 200px cyan
 }
-.about{
+
+.about {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 1.5rem;
 }
-.about-img img{
+
+.about-img img {
     padding-bottom: 20%;
     max-width: 630px;
     height: auto;
     width: 100%;
     border-radius: 8px;
 }
-.about-text h2{
+
+.about-text h2 {
     font-size: 60px;
 }
-.about-text h2 span{
+
+.about-text h2 span {
     color: #0ef;
 }
-.about-text h4{
+
+.about-text h4 {
     font-size: 29px;
     font-weight: 600;
     color: #fff;
     line-height: 1.7;
     margin: 15px 0 30px;
 }
-.about-text p{
+
+.about-text p {
     color: aliceblue;
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 4rem;
 }
-#services{
+
+#services {
     color: aliceblue;
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 4rem;
 }
-.sub-title{
+
+.sub-title {
     text-align: center;
     font-size: 60px;
     padding-bottom: 70px;
 }
-.sub-title span{
+
+.sub-title span {
     color: #0ef;
 }
-.Container{
+
+.Container {
     padding: 90px;
 }
+
 .services-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
-.services-list div{
+
+.services-list div {
     background-color: transparent;
     padding: 40px;
     font-size: 13px;
@@ -216,26 +228,29 @@ body {
     border-radius: 20px;
     transition: background 0.5s, transform 0.5s;
     box-shadow: 1px 1px 20px #012290f7,
-                1px 1px 40px #0053b8f7
-
+        1px 1px 40px #0053b8f7
 }
+
 .services-list i {
     font-size: 50px;
     margin-bottom: 30px;
-} 
-.services-list div h2{
+}
+
+.services-list div h2 {
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
 }
-.services-list div a{
+
+.services-list div a {
     text-decoration: none;
     color: #000;
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
 }
-.read{
+
+.read {
     display: inline-block;
     padding: 12px 28px;
     background: #0ef;
@@ -251,57 +266,68 @@ body {
     box-shadow: 0 0 5px #0ef,
         0 0 25px #0ef;
 }
-.read:hover{
+
+.read:hover {
     box-shadow: 0 0 5px cyan,
         0 0 25px cyan, 0 0 50px cyan,
         0 0 100px cyan, 0 0 200px cyan;
 }
 
-.services-list div:hover{
+.services-list div:hover {
     transform: translateY(-10px);
 }
-section{
+
+section {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 0px;
 }
-.container1{
+
+.container1 {
     width: 600px;
     max-height: 500px;
     padding: 75px 90px;
     margin-left: 90px;
 }
-.heading1{
+
+.heading1 {
     text-align: center;
     text-decoration: underline;
     text-underline-offset: 10px;
     text-decoration-thickness: 5px;
     margin-bottom: 0px;
 }
-.bar{
+
+.bar {
     font-size: 23px;
 }
-.Technical-bars .bar{
+
+.Technical-bars .bar {
     margin-top: 40px 0;
     padding: 5px;
 }
-.Technical-bars .bar:first-child{
+
+.Technical-bars .bar:first-child {
     margin-top: 0;
 }
-.Technical-bars .bar:last-child{
+
+.Technical-bars .bar:last-child {
     margin-bottom: 0;
 }
-.Technical-bars .bar .info{
+
+.Technical-bars .bar .info {
     margin-bottom: 5px;
 }
-.Technical-bars .bar .info span{
+
+.Technical-bars .bar .info span {
     font-size: 17px;
     font-weight: 500;
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
-    
+
 }
-.Technical-bars .bar .progress-line{
+
+.Technical-bars .bar .progress-line {
     position: relative;
     border-radius: 10px;
     width: 100%;
@@ -311,7 +337,8 @@ section{
     transform: scaleX(0);
     transform-origin: left;
 }
-.Technical-bars .bar .progress-line span{
+
+.Technical-bars .bar .progress-line span {
     height: 100%;
     background-color: #00eeff;
     position: absolute;
@@ -320,28 +347,34 @@ section{
     transform: scaleX(0);
     transform-origin: left;
 }
-@keyframes animate{
-    100%{
+
+@keyframes animate {
+    100% {
         transform: scaleX(1);
     }
 }
-.progress-line.html span{
+
+.progress-line.html span {
     width: 90%;
 }
-.progress-line.css span{
+
+.progress-line.css span {
     width: 60%;
 }
-.progress-line.javascript span{
+
+.progress-line.javascript span {
     width: 85%;
 }
-.progress-line.python span{
+
+.progress-line.python span {
     width: 50%;
 }
-.progress-line.react span{
+
+.progress-line.react span {
     width: 75%;
 }
 
-.progress-line span::after{
+.progress-line span::after {
     position: absolute;
     padding: 1px 8px;
     background-color: #000;
@@ -353,21 +386,27 @@ section{
     animation: showText 0.5s 1.5s linear forwards;
     opacity: 0;
 }
-.progress-line.html span::after{
+
+.progress-line.html span::after {
     content: "90%";
 }
-.progress-line.css span::after{
+
+.progress-line.css span::after {
     content: "60%";
 }
-.progress-line.javascript span::after{
+
+.progress-line.javascript span::after {
     content: "85%";
 }
-.progress-line.python span::after{
+
+.progress-line.python span::after {
     content: "50%";
 }
-.progress-line.react span::after{
+
+.progress-line.react span::after {
     content: "75%";
 }
+
 .progress-line span::before {
     content: "";
     position: absolute;
@@ -382,11 +421,13 @@ section{
     animation: showText 0.5s 1.5s linear forwards;
     opacity: 0;
 }
-@keyframes showText{
-    100%{
+
+@keyframes showText {
+    100% {
         opacity: 1;
     }
 }
+
 .radial-bars {
     width: 100%;
     display: flex;
@@ -421,11 +462,12 @@ section{
     animation: animate-bar 1s linear forwards;
 }
 
-@keyframes animate-bar{
-    100%{
+@keyframes animate-bar {
+    100% {
         stroke-dashoffset: -1;
     }
 }
+
 .path {
     stroke-width: 10;
     stroke: #0ef;
@@ -499,6 +541,7 @@ section{
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
 }
+
 .container2 {
     width: 600px;
     max-height: 500px;
@@ -506,8 +549,88 @@ section{
     margin-left: 0px;
 }
 
+.main-text{
+    padding-top: 130px;
+    margin-top: 200px;
+}
+.main-text h2{
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+}
+.main-text h2 span{
+    color: #0ef;
+}
+.porfolio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(359px, auto));
+}
+.row{
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.row img{
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.5s;
+}
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.1),#0ef);
+    position: absolute;
+    border-radius: 8px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 40px;
+    transition: height 0.5s;
+}
+.layer h5{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.layer p{
+    color: #000;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+.layer i{
+    color: #ff004f;
+    margin-top: 20px;
+    font-size: 20px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.row:hover img{
+    transform: scale(1.1);
+}
+.row:hover .layer{
+    height: 100%;
+}
 
-.contact{
+
+
+
+
+
+
+.contact {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -515,46 +638,54 @@ section{
     padding-left: 30px;
     margin-top: 13px;
 }
-.contact-text h2{
+
+.contact-text h2 {
     font-size: 90px;
     line-height: 1;
     text-align: center;
 }
-.contact-text h2 span{
+
+.contact-text h2 span {
     color: #0ef
 }
 
-.contact-text h4{
+.contact-text h4 {
     margin: 15px 0;
-    color: rgb(228,228,228);
+    color: rgb(228, 228, 228);
     font-size: 20px;
     font-weight: 600;
 }
-.contact-text p{
+
+.contact-text p {
     color: rgb(177, 177, 177);
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 2rem;
 }
-.contact-list{
+
+.contact-list {
     margin-bottom: 3rem;
 }
-.contact-list li{
+
+.contact-list li {
     margin-bottom: 10px;
     display: block;
 }
-.contact-list i{
+
+.contact-list i {
     display: inline-block;
     color: #0ef;
     font-size: 20px;
     font-weight: 600;
     transition: all .40s ease;
 }
-.contact-list li a:hover{
+
+.contact-list li a:hover {
     transform: scale(1.01) translateY(-5px);
     color: #0ef;
 }
-.contact-icons i{
+
+.contact-icons i {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -572,15 +703,19 @@ section{
     animation: slideLeft 1s ease forwards;
     animation-delay: calc(.2s * var(--i));
 }
-.contact-icons i:hover{
+
+.contact-icons i:hover {
     background: #0ef;
     color: #000;
     box-shadow: 0 0 20px #0ef;
 }
-.contact-form form{
+
+.contact-form form {
     position: relative;
 }
-.contact-form form input,form textarea{
+
+.contact-form form input,
+form textarea {
     border: none;
     outline: none;
     width: 90%;
@@ -592,11 +727,13 @@ section{
     margin-bottom: 0.5rem;
     border-radius: 0.5rem;
 }
-.contact-form textarea{
+
+.contact-form textarea {
     resize: none;
     height: 220px;
 }
-.contact-form form .send{
+
+.contact-form form .send {
     display: inline-block;
     padding: 14px 60px;
     background: #0ef;
@@ -612,13 +749,14 @@ section{
     box-shadow: 0 0 5px #0ef,
         0 0 25px #0ef;
 }
-.contact-form form .send:hover{
+
+.contact-form form .send:hover {
     box-shadow: 0 0 5px cyan,
         0 0 25px cyan, 0 0 50px cyan,
         0 0 100px cyan, 0 0 200px cyan;
 }
 
-.last-text p{
+.last-text p {
     width: 100%;
     text-align: center;
     padding: 25px 0;
@@ -626,12 +764,14 @@ section{
     font-weight: 300;
     margin-top: 70px;
 }
-.top{
+
+.top {
     position: fixed;
     bottom: 2.1rem;
     right: 2.1rem;
 }
-.top i{
+
+.top i {
     color: #000;
     background: #0ef;
     font-size: 20px;
